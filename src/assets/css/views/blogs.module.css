@@ -1,0 +1,39 @@
+.blog_main_con {
+    /* min-height: calc(100vh - 100px); */
+    background-color: #F2F8F7;
+}
+
+.viewBlog_con {
+    .blog_image {
+        width: 100%;
+    }
+
+    .name {
+        font-family: Noto-Bold;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+
+    .user_data {
+        font-family: Noto-Medium;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+
+    .description {
+        font-family: Noto-Light;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0%;
+
+    }
+}

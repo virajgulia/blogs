@@ -1,0 +1,11 @@
+.header_main_con {
+    background-color: #E8F3F3;
+    padding: 10px 0px;
+
+    .nav_items_con {
+        & ul li {
+            list-style-type: none;
+
+        }
+    }
+}

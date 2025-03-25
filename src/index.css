@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: 'Noto-Bold';
+  src: url('./assets/fonts/NotoSans_Condensed-Bold.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto-Light';
+  src: url('./assets/fonts/NotoSans_Condensed-Light.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto-Medium';
+  src: url('./assets/fonts/NotoSans_Condensed-Medium.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto-Regular';
+  src: url('./assets/fonts/NotoSans_Condensed-Regular.ttf') format('woff2');
+}
+
+
+:root {
+  --primary-color: #00AAA1;
+
+
+}
+
+.pointer {
+  cursor: pointer;
+}

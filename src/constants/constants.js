@@ -1,0 +1,1 @@
+export const BLOGIMAGE = "https://cdn.prod.website-files.com/6634a8f8dd9b2a63c9e6be83/669f6041b0e078c4adcc7eea_blogging-ideas.jpeg"

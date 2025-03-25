@@ -1,0 +1,79 @@
+.logo_main_con {
+    .note {
+        background-color: var(--primary-color);
+        font-family: Noto-Regular;
+        font-weight: 600;
+        font-size: 27px;
+        letter-spacing: 2%;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
+    .book {
+        font-family: Noto-Medium;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 0%;
+
+    }
+
+    .dot {
+        color: var(--primary-color);
+    }
+}
+
+.title_main_con {
+    .title {
+        background-color: var(--primary-color);
+        font-family: Noto-Medium;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: white;
+
+    }
+
+    .subtitle {
+        font-family: Noto-Regular;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+}
+
+.author_card_con {
+    .author_image {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+        border-radius: 50%;
+        background-color: rgb(189, 188, 188);
+    }
+
+    .author_name {
+        font-family: Noto-Regular;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: #222222;
+    }
+
+    .author_description {
+        font-family: Noto-Light;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+}
