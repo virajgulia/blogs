@@ -36,7 +36,7 @@ export const Blogs = () => {
                 <div className="container">
 
                     <div className="row m-0 p-0">
-                        <div className="col-8 row m-0 p-0" style={{ height: "50vh", overflow: "auto" }}>
+                        <div className="col-8 row m-0 p-0" style={{ height: "100vh", overflow: "auto" }}>
 
                             {!isError ? (
                                 (isLoading) ? <div>Loading...</div> : posts?.map((res) => {
@@ -59,7 +59,7 @@ export const Blogs = () => {
 
                         </div>
 
-                        <div className="col-4" style={{ height: "50vh", overflow: "auto" }}>
+                        <div className="col-4" style={{ height: "100vh", overflow: "auto" }}>
                             <Title title={"Popular"} subtitle={"Posted"} />
                             <br />
                             {posts?.map((res) => {
