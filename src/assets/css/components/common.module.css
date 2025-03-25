@@ -77,3 +77,70 @@
 
     }
 }
+
+.category_con {
+    .category_item {
+        border-bottom: 1px dotted #D1E7E5;
+        padding: 10px;
+        font-family: Noto-Regular;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+
+    }
+}
+
+.update_card_con {
+    background-color: #F2F8F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+    .update_card_value {
+        font-family: Noto-Regular;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        color: var(--primary-color);
+
+    }
+
+    .update_card_title {
+        font-family: Noto Sans;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #222222;
+    }
+}
+
+.blog_searching_con {
+    .tag_item {
+        font-family: Noto-Medium;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+        color: #666666;
+        border: 1px solid #C4C4C4;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .selected_tag_item {
+        background-color: var(--primary-color);
+        color: white;
+    }
+}

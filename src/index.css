@@ -34,3 +34,13 @@
 .pointer {
   cursor: pointer;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}

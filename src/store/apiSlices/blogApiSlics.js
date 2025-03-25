@@ -15,12 +15,25 @@ export const blogApiSlice = createApi({
                 params: { skip, limit }
             }),
             providesTags: ['GetAllPostTag'],
-            transformResponse: response => response?.posts || []
+            transformResponse: response => {
+                console.log(response)
+                return response || {}
+            }
+
         }),
         GetPostById: builder.query({
             query: (id) => ({
                 url: APIS.getPostById + id,
                 method: 'GET',
+            }),
+            transformResponse: response => response || []
+        }),
+        GetPostByTag: builder.query({
+            query: ({ skip, limit, tag }) => ({
+                url: APIS.getPostByTag + tag,
+                method: 'GET',
+                params: { skip, limit }
+
             }),
             transformResponse: response => response || []
         }),
@@ -30,5 +43,6 @@ export const blogApiSlice = createApi({
 
 export const {
     useGetAllPostsQuery,
-    useGetPostByIdQuery
+    useGetPostByIdQuery,
+    useGetPostByTagQuery
 } = blogApiSlice
